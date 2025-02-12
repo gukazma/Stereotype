@@ -1,0 +1,3 @@
+[submodule "Vendors/colmap"]
+	path = Vendors/colmap
+	url = https://github.com/gukazma/colmap

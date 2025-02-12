@@ -18,6 +18,8 @@ set_target_properties(${TARGET_NAME} PROPERTIES VS_DEBUGGER_COMMAND_ARGUMENTS "$
 target_link_libraries(${TARGET_NAME} 
       PRIVATE
             GTest::gtest GTest::gtest_main
+            Stereotype::MVS
+            Stereotype::SFM
 )
 
 target_include_directories(

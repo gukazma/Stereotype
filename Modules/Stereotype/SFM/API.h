@@ -1,5 +1,5 @@
 #pragma once
 
-#include "MyLibs/LibEx/Export.h"
+#include "Stereotype/SFM/API.h"
 
 void LibEx_API API();
